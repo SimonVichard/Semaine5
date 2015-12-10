@@ -1,0 +1,90 @@
+@media all and (max-width:1024px)
+
+header {
+    background-image:url("img/fresh_snow.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+header div h1{
+    position:absolute;
+    display:inline-block;
+    font-size:26px;
+    color:#424242;
+    font-family:'Comic Sans MS', cursive;
+    margin-left:70px;
+}
+
+header div p {
+    position:absolute;
+    margin-left:340px;
+    margin-top:28px;
+    display:inline-block;
+    font-style:italic;
+    color:#424242;
+}
+
+header div h3 {
+    position:absolute;
+    display:inline-block;
+    margin-top:85px;
+    margin-left:20px;
+    color:#424242;
+}
+
+main {
+    background-image:url("img/triangular.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+.sections {
+    max-width:30%;
+    display:inline-block;
+    vertical-align:top;
+    padding:10px;
+}
+
+
+footer {
+    background-image:url("img/fresh_snow_@2X.png");
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+    background-attachment:fixed;
+}
+
+footer div p {
+    display:inline-block;
+    margin-left:20px;
+    vertical-align:top;
+}
+
+.conteneur {
+    width:100%;
+    max-width:960px;
+    margin:15px;
+    padding:10px;
+}
+
+img {
+    width:20%;
+    margin-top:10px;
+}
+
+
+ul {
+    list-style-type:square;
+}
+
+a:link {
+    text-decoration:none;
+    color:#0101DF;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    color:#7401DF;
+}
